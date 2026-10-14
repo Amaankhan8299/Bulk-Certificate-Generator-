@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+venv/
+bulk-certificate-generator/venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated certificates (exclude PDFs, keep directory via .gitkeep)
+certificates/*.pdf
+!certificates/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

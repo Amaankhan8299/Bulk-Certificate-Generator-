@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Certificate Generator - Create & Download in Seconds</title>
+    <meta name="description" content="Generate high-quality PDF certificates in bulk with automatic ID generation and instant ZIP download.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-header">
+        <div class="header-content">
+            <span class="badge-pill">Professional Tool</span>
+            <h1>Bulk Certificate Generator</h1>
+            <p>Generate, personalize, and download verified PDF certificates in bulk within seconds.</p>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="card form-card">
+            <div class="card-header">
+                <div>
+                    <h2>Create Certificates</h2>
+                    <p class="subtitle">Enter event details and recipient information below.</p>
+                </div>
+                <button type="button" id="toggleBulkBtn" class="btn btn-secondary">
+                    📋 Paste / Import CSV
+                </button>
+            </div>
+
+            <!-- Collapsible Bulk CSV / Paste Panel -->
+            <div id="bulkPanel" class="bulk-panel hidden">
+                <div class="bulk-header">
+                    <label for="bulkInput"><strong>Paste List (CSV or TSV):</strong> Format: <code>Name, Email</code> (one per line)</label>
+                    <button type="button" id="loadSampleBtn" class="btn-link">Load Sample</button>
+                </div>
+                <textarea id="bulkInput" rows="4" placeholder="Alice Johnson, alice@example.com&#10;Bob Smith, bob@example.com&#10;Charlie Davis, charlie@example.com"></textarea>
+                <div class="bulk-actions">
+                    <button type="button" id="parseBulkBtn" class="btn btn-primary btn-sm">Add to List</button>
+                    <button type="button" id="closeBulkBtn" class="btn btn-ghost btn-sm">Cancel</button>
+                </div>
+            </div>
+
+            <form id="certificateForm" novalidate>
+                <div class="form-group">
+                    <label for="eventName">Event Name <span class="required">*</span></label>
+                    <input
+                        type="text"
+                        id="eventName"
+                        placeholder="e.g. Full Stack Web Development Bootcamp 2026"
+                        required
+                    >
+                </div>
+
+                <div class="section-title-row">
+                    <div>
+                        <h3>Recipients</h3>
+                        <p class="section-hint">Add up to 100 participants.</p>
+                    </div>
+                    <span id="recipientCountBadge" class="count-badge">1 Recipient</span>
+                </div>
+
+                <div id="recipients" class="recipients-list">
+                    <div class="recipient-row">
+                        <div class="input-wrapper name-col">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Recipient Full Name"
+                                required
+                            >
+                        </div>
+
+                        <div class="input-wrapper email-col">
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="name@example.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="action-col">
+                            <button type="button" class="btn-icon removeRecipient" title="Remove recipient" disabled>
+                                ✕
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions-bar">
+                    <button type="button" id="addRecipient" class="btn btn-secondary">
+                        + Add Recipient
+                    </button>
+                    <button type="button" id="clearAllBtn" class="btn btn-ghost">
+                        Clear All
+                    </button>
+                </div>
+
+                <button type="submit" id="generateBtn" class="btn btn-primary btn-block">
+                    Generate Certificates
+                </button>
+            </form>
+
+            <div id="statusMessage" class="status-message hidden"></div>
+
+            <div id="result" class="results-container hidden"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Bulk Certificate Generator &bull; FastAPI + ReportLab</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

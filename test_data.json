@@ -1,0 +1,409 @@
+{
+  "event_name": "Python Workshop",
+  "recipients": [
+    {
+      "name": "Student 1",
+      "email": "student1@example.com"
+    },
+    {
+      "name": "Student 2",
+      "email": "student2@example.com"
+    },
+    {
+      "name": "Student 3",
+      "email": "student3@example.com"
+    },
+    {
+      "name": "Student 4",
+      "email": "student4@example.com"
+    },
+    {
+      "name": "Student 5",
+      "email": "student5@example.com"
+    },
+    {
+      "name": "Student 6",
+      "email": "student6@example.com"
+    },
+    {
+      "name": "Student 7",
+      "email": "student7@example.com"
+    },
+    {
+      "name": "Student 8",
+      "email": "student8@example.com"
+    },
+    {
+      "name": "Student 9",
+      "email": "student9@example.com"
+    },
+    {
+      "name": "Student 10",
+      "email": "student10@example.com"
+    },
+    {
+      "name": "Student 11",
+      "email": "student11@example.com"
+    },
+    {
+      "name": "Student 12",
+      "email": "student12@example.com"
+    },
+    {
+      "name": "Student 13",
+      "email": "student13@example.com"
+    },
+    {
+      "name": "Student 14",
+      "email": "student14@example.com"
+    },
+    {
+      "name": "Student 15",
+      "email": "student15@example.com"
+    },
+    {
+      "name": "Student 16",
+      "email": "student16@example.com"
+    },
+    {
+      "name": "Student 17",
+      "email": "student17@example.com"
+    },
+    {
+      "name": "Student 18",
+      "email": "student18@example.com"
+    },
+    {
+      "name": "Student 19",
+      "email": "student19@example.com"
+    },
+    {
+      "name": "Student 20",
+      "email": "student20@example.com"
+    },
+    {
+      "name": "Student 21",
+      "email": "student21@example.com"
+    },
+    {
+      "name": "Student 22",
+      "email": "student22@example.com"
+    },
+    {
+      "name": "Student 23",
+      "email": "student23@example.com"
+    },
+    {
+      "name": "Student 24",
+      "email": "student24@example.com"
+    },
+    {
+      "name": "Student 25",
+      "email": "student25@example.com"
+    },
+    {
+      "name": "Student 26",
+      "email": "student26@example.com"
+    },
+    {
+      "name": "Student 27",
+      "email": "student27@example.com"
+    },
+    {
+      "name": "Student 28",
+      "email": "student28@example.com"
+    },
+    {
+      "name": "Student 29",
+      "email": "student29@example.com"
+    },
+    {
+      "name": "Student 30",
+      "email": "student30@example.com"
+    },
+    {
+      "name": "Student 31",
+      "email": "student31@example.com"
+    },
+    {
+      "name": "Student 32",
+      "email": "student32@example.com"
+    },
+    {
+      "name": "Student 33",
+      "email": "student33@example.com"
+    },
+    {
+      "name": "Student 34",
+      "email": "student34@example.com"
+    },
+    {
+      "name": "Student 35",
+      "email": "student35@example.com"
+    },
+    {
+      "name": "Student 36",
+      "email": "student36@example.com"
+    },
+    {
+      "name": "Student 37",
+      "email": "student37@example.com"
+    },
+    {
+      "name": "Student 38",
+      "email": "student38@example.com"
+    },
+    {
+      "name": "Student 39",
+      "email": "student39@example.com"
+    },
+    {
+      "name": "Student 40",
+      "email": "student40@example.com"
+    },
+    {
+      "name": "Student 41",
+      "email": "student41@example.com"
+    },
+    {
+      "name": "Student 42",
+      "email": "student42@example.com"
+    },
+    {
+      "name": "Student 43",
+      "email": "student43@example.com"
+    },
+    {
+      "name": "Student 44",
+      "email": "student44@example.com"
+    },
+    {
+      "name": "Student 45",
+      "email": "student45@example.com"
+    },
+    {
+      "name": "Student 46",
+      "email": "student46@example.com"
+    },
+    {
+      "name": "Student 47",
+      "email": "student47@example.com"
+    },
+    {
+      "name": "Student 48",
+      "email": "student48@example.com"
+    },
+    {
+      "name": "Student 49",
+      "email": "student49@example.com"
+    },
+    {
+      "name": "Student 50",
+      "email": "student50@example.com"
+    },
+    {
+      "name": "Student 51",
+      "email": "student51@example.com"
+    },
+    {
+      "name": "Student 52",
+      "email": "student52@example.com"
+    },
+    {
+      "name": "Student 53",
+      "email": "student53@example.com"
+    },
+    {
+      "name": "Student 54",
+      "email": "student54@example.com"
+    },
+    {
+      "name": "Student 55",
+      "email": "student55@example.com"
+    },
+    {
+      "name": "Student 56",
+      "email": "student56@example.com"
+    },
+    {
+      "name": "Student 57",
+      "email": "student57@example.com"
+    },
+    {
+      "name": "Student 58",
+      "email": "student58@example.com"
+    },
+    {
+      "name": "Student 59",
+      "email": "student59@example.com"
+    },
+    {
+      "name": "Student 60",
+      "email": "student60@example.com"
+    },
+    {
+      "name": "Student 61",
+      "email": "student61@example.com"
+    },
+    {
+      "name": "Student 62",
+      "email": "student62@example.com"
+    },
+    {
+      "name": "Student 63",
+      "email": "student63@example.com"
+    },
+    {
+      "name": "Student 64",
+      "email": "student64@example.com"
+    },
+    {
+      "name": "Student 65",
+      "email": "student65@example.com"
+    },
+    {
+      "name": "Student 66",
+      "email": "student66@example.com"
+    },
+    {
+      "name": "Student 67",
+      "email": "student67@example.com"
+    },
+    {
+      "name": "Student 68",
+      "email": "student68@example.com"
+    },
+    {
+      "name": "Student 69",
+      "email": "student69@example.com"
+    },
+    {
+      "name": "Student 70",
+      "email": "student70@example.com"
+    },
+    {
+      "name": "Student 71",
+      "email": "student71@example.com"
+    },
+    {
+      "name": "Student 72",
+      "email": "student72@example.com"
+    },
+    {
+      "name": "Student 73",
+      "email": "student73@example.com"
+    },
+    {
+      "name": "Student 74",
+      "email": "student74@example.com"
+    },
+    {
+      "name": "Student 75",
+      "email": "student75@example.com"
+    },
+    {
+      "name": "Student 76",
+      "email": "student76@example.com"
+    },
+    {
+      "name": "Student 77",
+      "email": "student77@example.com"
+    },
+    {
+      "name": "Student 78",
+      "email": "student78@example.com"
+    },
+    {
+      "name": "Student 79",
+      "email": "student79@example.com"
+    },
+    {
+      "name": "Student 80",
+      "email": "student80@example.com"
+    },
+    {
+      "name": "Student 81",
+      "email": "student81@example.com"
+    },
+    {
+      "name": "Student 82",
+      "email": "student82@example.com"
+    },
+    {
+      "name": "Student 83",
+      "email": "student83@example.com"
+    },
+    {
+      "name": "Student 84",
+      "email": "student84@example.com"
+    },
+    {
+      "name": "Student 85",
+      "email": "student85@example.com"
+    },
+    {
+      "name": "Student 86",
+      "email": "student86@example.com"
+    },
+    {
+      "name": "Student 87",
+      "email": "student87@example.com"
+    },
+    {
+      "name": "Student 88",
+      "email": "student88@example.com"
+    },
+    {
+      "name": "Student 89",
+      "email": "student89@example.com"
+    },
+    {
+      "name": "Student 90",
+      "email": "student90@example.com"
+    },
+    {
+      "name": "Student 91",
+      "email": "student91@example.com"
+    },
+    {
+      "name": "Student 92",
+      "email": "student92@example.com"
+    },
+    {
+      "name": "Student 93",
+      "email": "student93@example.com"
+    },
+    {
+      "name": "Student 94",
+      "email": "student94@example.com"
+    },
+    {
+      "name": "Student 95",
+      "email": "student95@example.com"
+    },
+    {
+      "name": "Student 96",
+      "email": "student96@example.com"
+    },
+    {
+      "name": "Student 97",
+      "email": "student97@example.com"
+    },
+    {
+      "name": "Student 98",
+      "email": "student98@example.com"
+    },
+    {
+      "name": "Student 99",
+      "email": "student99@example.com"
+    },
+    {
+      "name": "Student 100",
+      "email": "student100@example.com"
+    },
+    {
+      "name": "Student 101",
+      "email": "student101@example.com"
+    }
+  ]
+}
